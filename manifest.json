@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Celebrate Today",
+  "description": "This extension opens on a new tab and displays the holiday being celebrated
+                  on the current day, along with a relevent photo, the location, and short blub",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title" : "What's being celebrated today?"
+  },
+  "chrome_url_overrides" : {
+    "newtab" : "blank.html"
+  }
+}
